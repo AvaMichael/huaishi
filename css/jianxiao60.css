@@ -8,6 +8,7 @@ img{
 }
 .mean div{
     background: pink;
+    color:#fff;
     float:left;
     width:110px;
     text-align: center;
@@ -34,38 +35,172 @@ img{
     font-size:22px;
     color:#c00;
     text-indent:27px;
-    margin-left:170px;  
+    margin:10px 0 10px 0; 
 }
-.box-list{
+.box-title1-1{
     float:left;
-    width:95px;
-    margin-left:100px;
+    width:50px;
+    margin-left:70px;
     font-size:14px;
     margin-right:0;
-    margin-top:10px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.box-title1-1:hover{
+    text-decoration: underline;
 }
 .box-list{
-    margin-left: 150px;
-    margin-right:0;
+    margin-left: 0px;
     color:#000;
     line-height:16px;
     float:left;
-    width:275px;
+    width:279px;
+    cursor:pointer;
 }
-.news-left{
+ .news{
     box-sizing:border-box; 
-}
-.box-title2{
+    border: 1px solid #cc0000;
+    margin:  0 150px;
+    padding: 5px;
+    width: 980px;
+    height: 2000px;
+  }
+  .news-left{
     float:left;
-    font-size: 22px;
+    box-sizing:border-box; 
+    border: 1px solid #cc0000;
+    width: 300px;
+    height: 610px;
+  }
+  .news-right{
+      float:right;
+      box-sizing: border-box;
+      border:1px solid #cc0000;
+      width:650px;
+      height:610px;
+  }
+
+  .box-list>li{
+    font-size: 16px;
+    color: #000;
+    line-height: 22px;
+  }
+  .box-list>li:hover{
+      color:#cc0000;
+  }
+  .box-list>span{
+    color: #999;
+    text-indent: 16px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+  .box-title2{
+    float:left;
+    font-size:22px;
     color:#c00;
     text-indent:27px;
-    margin-left:170px; 
+    margin:10px;  
 }
 .box-title2-1{
-    float:right;
-    width:95px;
-    margin-right:100px;
+    float:left;
+    width:50px;
+    margin-left:360px;
     font-size:14px;
+    margin-right:0;
+    margin-top:20px;
+    cursor:pointer;
+}
+.box-title2-1:hover{
+    text-decoration: underline;
+}
+.box-list1>li{
+    float:left;
+    font-size: 16px;
+    color: #000;
+    line-height: 22px;
+    margin-top:10px;
+    cursor:pointer;
+  }
+  .box-list1>li:hover{
+      color:#cc0000;
+  }
+  .box-list1>span{
+    float:right;
+    color: #999;
+    text-indent: 16px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 12px;
+    margin-right:0px;
+  }
+
+img:nth-child(3){
+    float:right;
+}
+
+.box-xiaoshi{
+    float:left;
+    font-size:22px;
+    color:#c00;
+    text-indent:27px;
+    margin:10px 0 10px 0; 
+}
+.box-geng{
+    float:left;
+    width:50px;
+    margin-left:70px;
+    font-size:14px;
+    margin-right:0;
+    margin-top:20px;
+    margin-left:800px;
+    cursor:pointer;
+}
+.box-geng:hover{
+  text-decoration: underline;  
+}
+.tu1>img{
+    float:left;
+    width:245px;
+    margin-right:20px;
     margin-top:10px;
 }
+.tu2>img{
+    float:left;
+    width:245px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.tu3>img{
+    float:left;
+    width:245px;
+    margin-right:20px;
+    margin-top:10px;
+}
+.tu1{
+    float:left;
+    box-sizing: border-box;
+    border:1px solid #cc0000;
+    width:245px;
+    height: 400px;
+    margin-right:20px;
+    
+}
+.tu2{
+    float:left;
+    box-sizing: border-box;
+    border:1px solid #cc0000;
+    width:245px;
+    height: 400px;
+    margin-right:20px;
+}
+.tu3{
+    float:left;
+    box-sizing: border-box;
+    border:1px solid #cc0000;
+    width:245px;
+    height: 400px;
+    margin-right:50px;
+}
+
+
