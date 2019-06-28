@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>淮阴师范学院统一身份认证平台</title>
+		<link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/cas.css" />
+</head>
+<body id="cas">
+
+    <body id="cas">
+
+		<div id="container">
+
+			<div>
+
+				<div class="w1000">
+
+					<img src="image/logo.jpg">
+
+					<div class="help1"><a href="https://cas.hytc.edu.cn/safe/knowledge.jsp" target="_blank">常见问题</a></div>
+
+				</div>
+
+			</div>
+
+			<div id="content" style="background-color: rgb(0, 209, 122)">
+    
+
+         <div class="loginWrap">
+
+                <div class="">
+
+                    <script type="text/javascript"></script>
+
+                    <script type="text/javascript"></script>
+
+                    <script type="text/javascript"></script>
+
+                    <style>
+
+                        ul,li{ list-style-type:none; }
+
+    .flexslider {
+
+        margin: 0 auto;
+
+
+        zoom: 1;
+
+        background:url(image/banner01.jpg) no-repeat 0 center;
+
+        height:373px;
+
+    }
+
+    .flex-viewport {
+
+        max-height: 2000px;
+
+        -webkit-transition: all 1s ease;
+
+        -moz-transition: all 1s ease;
+
+        transition: all 1s ease;
+
+    }
+
+    .flexslider .slides {
+
+        zoom: 1;
+
+    }
+
+    .flex-direction-nav {
+
+    *height: 0;
+
+        display: none;
+
+    }
+
+    .flex-direction-nav a {
+
+        width: 30px;
+
+        height: 30px;
+
+        display: block;
+
+        position: absolute;
+
+        bottom: 10%;
+
+        z-index: 10;
+
+        cursor: pointer;
+
+        text-indent: -9999px;
+
+        opacity: 1;
+
+        filter:alpha(opacity=100);
+
+    -webkit-transition: all .3s ease;
+
+    }
+
+    .flex-direction-nav a:focus { border:none; outline:none; }
+
+    .flex-direction-nav .flex-next {
+
+        background:url(images/r-btn.png) no-repeat 0 0;
+
+        right: 100px;
+
+    }
+
+    .flex-direction-nav .flex-prev {
+
+        background:url(images/1-btn.png) no-repeat 0 0;
+
+        right: 138px;
+
+    }
+
+    .flex-direction-nav .flex-prev:hover,
+
+    .flex-direction-nav .flex-next:hover{
+
+        opacity: 0.8;
+
+        filter:alpha(opacity=25);
+
+    }
+
+    
+
+    .flex-control-nav {
+
+        width: 100%;
+
+        position: absolute;
+
+        bottom: 10px;
+
+        text-align: center;
+
+        display:none;
+
+    }
+
+    .flex-control-nav li {
+
+        margin: 0 5px;
+
+        display: inline-block;
+
+        zoom: 1;
+
+    *display: inline;
+
+    }
+
+    .flex-control-paging li a {
+
+        background: url(images/dot.png) no-repeat 0 -16px;
+
+        display:block;
+
+        height: 16px;
+
+        overflow: hidden;
+
+        text-indent:-99em;
+
+        width: 16px;
+
+        cursor: pointer;
+
+    }
+
+    .flex-control-paging li a.flex-active {
+
+        background-position: 0 0;
+
+    }
+
+    .flexslider .img{ background:darkcyan; }
+
+    
+
+    #tabs .goodsDetailTab{ float:left; height:36px; line-height:36px; color:#fff; font-size:14px; text-align:center; cursor:pointer;
+
+     
+
+     width:100%;
+
+       
+
+     }
+
+</style>
+
+                    <div class="flexslider">
+
+                        <!-- <ul class="slides">
+
+            <li>
+
+              <div class="img"><img src="images/banner01.jpg" /></div>
+
+            </li>
+
+            <li>
+
+              <div class="img"><img src="images/banner02.jpg" /></div>
+
+            </li>
+
+            <li>
+
+              <div class="img"><img src="images/banner03.jpg" /></div>
+
+            </li>
+
+          </ul>	-->
+
+                    </div>
+
+
+
+                    <div class="loginBox">
+
+                        <div class="tabs clearfix" id="tabs">
+
+                            <div id="ukeylogin" class="goodsDetailTab active" onclick="select_login('1')">
+
+                                <span>统一身份认证平台登录</span>
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+                        <div class="box" id="login">
+
+                            <form id="fm1" name="fm1" action="/lyuapServer/login?service=http%3A%2F%2Fportal.hytc.edu.cn%2Fc%2Fportal%2Flogin%3Fredirect%3D%252F%26p_l_id%3D70131"
+                             method="post">
+                                <div class="row">
+
+
+
+
+
+
+
+                                    <label for="username" style="display:none">用户名:</label>
+
+                                    <input id="username" name="username" class="required inputClass" tabindex="1" placeholder="请输入用户名" class="inputClass"
+                                     type="text" value="" size="25" autocomplete="off" />
+
+
+
+
+
+                                </div>
+
+
+
+                                <div class="row">
+
+                                    <label for="password" style="display:none">密 码:</label>
+
+                                    <input id="password" name="password" class="required inputClass inputClass02" tabindex="2" placeholder="请输入密码"
+                                     type="password" value="" size="25" autocomplete="off" />
+
+                                </div>
+
+                                <div class="row" style="color:#fff;">
+
+                                    <input type="checkbox">下次自动登录 <span style="padding-left:130px;"><a href="/safe/findbyemail.jsp">
+                                            <font style="color:#ffffff">忘记密码？</font>
+                                        </a></span>
+
+                                </div>
+
+
+
+                                <input type="hidden" name="captcha" value="" />
+
+
+
+
+
+                                <div class="row check" style="display:none">
+
+                                    <input id="warn" type="hidden" name="warn" value="true" tabindex="3" accesskey="w" type="checkbox" />
+
+                                </div>
+
+
+
+                                <div class="row btn-row">
+
+                                    <input type="hidden" name="lt" value="LT-207641-sUgnIhfCOyQrGI12TfiYQHv2WwPZv7-cas01.example.org" />
+
+                                    <input type="hidden" name="execution" value="e9s1" />
+
+                                    <input type="hidden" name="_eventId" value="submit" />
+
+
+
+                                    <input class="btn-submit" name="login" accesskey="l" value="立即登录" tabindex="4" type="button" onclick="toLogin()" />
+
+                                    <input class="btn-reset" name="reset" accesskey="c" value="CLEAR" tabindex="5" type="reset" style="display:none" />
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+
+
+
+
+                        <div id="login_qq">
+
+                            <div class="sidebar-content">
+
+                                <div id="list-languages">
+
+
+
+                                </div>
+
+                                <div class="wjmmLink"><a href="/safe/index.jsp">忘记密码？</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="/safe/knowledge.jsp">常见问题</a></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <div class="mhtx">
+                <p>门户特性</p>
+                <div class="box1">
+                    <div class="bt tips1">登录一账号</div>
+                    <p>告别繁多的账号和密码，实现单点登录，一人一账号，一次登录，畅游全校应用系统。</p>
+                </div>
+                <div class="box1 hz">
+                    <div class="bt tips2">信息一栏目</div>
+                    <p>统一推送全校通知公告，校发公文，组织人事，财务资产，教学科研，学生工作，海外交流等大事小情。</p>
+                </div>
+                <div class="box1">
+                    <div class="bt tips3">数据一张表</div>
+                    <p>统一记录师生的信息和数据，集中展示个人情况、教学科研、项目成果、国际交流、实践活动、获奖表彰等。</p>
+                </div>
+                <div class="box1 hz">
+                    <div class="bt tips4">资源一平台</div>
+                    <p>统一整合正版软件，精品课程，科研资源，图书馆资源，流媒体资源等。</p>
+                </div>
+                <div class="box1">
+                    <div class="bt tips5">安全提示</div>
+                    <p>由于信息门户开通后，仅用一个用户名、密码即可进入各业务管理系统，因此，首次登录后，应尽快修改成复杂密码，以确保您相关信息的安全。</p>
+                </div>
+            </div>
+            
+            
+            <div class="w">
+                <div class="srowrapbox">
+                    <div class="tzgg_title" style="font-size: 21px; height: 30px;padding:32px 0 0;text-align: left; font-weight: bold;margin-left: -60px;">应用系统</div>
+                    <div class="scro">
+                        <div class="pre"><img id="turn_left" src="image/left.jpg" /></div>
+                        <div class="show">
+                            <div class="show_roll" id="pic_marquee" style="width:1009px">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://202.195.125.3/WFManager/home2.jsp" target="_self"><img src="image/cw.png" /></a></div>
+                                                                    <div class="imtText"><a href="http://202.195.125.3/WFManager/home2.jsp" target="_self">财务系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://ecard.hytc.edu.cn/zytk35portal/login.aspx" target="_self"><img src="image/card.png" /></a></div>
+                                                                    <div class="imtText"><a href="http://ecard.hytc.edu.cn/zytk35portal/login.aspx" target="_self">一卡通系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://oa2.hytc.edu.cn" target="_self"><img src="image/oa.png" /></a></div>
+                                                                    <div class="imtText"><a href="http://oa2.hytc.edu.cn" target="_self">OA系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="" target="_self"><img src="image/email.png" /></a></div>
+                                                                    <div class="imtText"><a href="" target="_self">邮件系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://202.195.119.4:8080/reader/hwthau.php" target="_self"><img src="image/book.png" /></a></div>
+                                                                    <div class="imtText"><a href="http://202.195.119.4:8080/reader/hwthau.php" target="_self">图书系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://202.195.113.73/default.aspx" target="_self"><img src="image/ky.png" /></a></div>
+                                                                    <div class="imtText"><a href="http://202.195.113.73/default.aspx" target="_self">科研系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://202.195.113.93:8080/ssoserver/login?ywxt=jw" target="_self"><img src="image/ky1.png" /></a></div>
+
+                                                                    <div class="imtText"><a href="http://202.195.113.93:8080/ssoserver/login?ywxt=jw" target="_self">教务系统</a></div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="dbg">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="imgBox"><a href="http://pan.hytc.edu.cn/sso/user/login" target="_self"><img src="image/wh.png" /></a></div>
+                                                                    <div class="imtText"><a href="http://pan.hytc.edu.cn/sso/user/login" target="_self">校园网盘</a></div>
+
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="next"><img id="turn_right" src="image/right.jpg" /></div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div>
+                <div class="lianjie">
+                    <div class="left-box">
+                        <div class="lj-tips">友情链接<br /><span>Friendly&emsp;&emsp;Links</span></div>
+                        <ul>
+                            <li>
+                                <div class="chinese"><a href="http://www.hytc.edu.cn/" target="_blank">淮阴师范学院主页</a></div>
+                                <div class="english"><a href="http://www.hytc.edu.cn/" target="_blank">http://www.hytc.edu.cn/</a></div>
+                            </li>
+                            <li>
+                                <div class="chinese"><a href="http://www1.hytc.edu.cn/en/" target="_blank">English&emsp;Version</a></div>
+                                <div class="english"><a href="http://www1.hytc.edu.cn/en/" target="_blank">http://www1.hytc.edu.cn/en/</a></div>
+                            </li>
+                            <li style="border-right:none;">
+                                <div class="chinese"><a href="http://news.hytc.edu.cn/" target="_blank">淮师新闻网</a></div>
+                                <div class="english"><a href="http://news.hytc.edu.cn/" target="_blank">http://news.hytc.edu.cn/s/lxyz/</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        
+
+</body>
+</html>
