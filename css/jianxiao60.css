@@ -26,4 +26,46 @@ img{
 .mean div:nth-child(8){
     border-right:none;
 }
-
+.news div>li{
+    list-style: none;
+}
+.box-title1{
+    float:left;
+    font-size:22px;
+    color:#c00;
+    text-indent:27px;
+    margin-left:170px;  
+}
+.box-list{
+    float:left;
+    width:95px;
+    margin-left:100px;
+    font-size:14px;
+    margin-right:0;
+    margin-top:10px;
+}
+.box-list{
+    margin-left: 150px;
+    margin-right:0;
+    color:#000;
+    line-height:16px;
+    float:left;
+    width:275px;
+}
+.news-left{
+    box-sizing:border-box; 
+}
+.box-title2{
+    float:left;
+    font-size: 22px;
+    color:#c00;
+    text-indent:27px;
+    margin-left:170px; 
+}
+.box-title2-1{
+    float:right;
+    width:95px;
+    margin-right:100px;
+    font-size:14px;
+    margin-top:10px;
+}
