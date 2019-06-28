@@ -8,6 +8,7 @@ img{
 }
 .mean div{
     background: pink;
+    color:#fff;
     float:left;
     width:110px;
     text-align: center;
@@ -50,20 +51,37 @@ img{
     line-height:16px;
     float:left;
     width:279px;
+    cursor:pointer;
 }
-.news{
+ .news{
     box-sizing:border-box; 
-    border: 1px solid #cccccc;
     margin:  0 150px;
-    padding: 10px;
+    padding: 5px;
     width: 980px;
     height: 1000px;
+  }
+  .news-left{
+    float:left;
+    box-sizing:border-box; 
+    border: 1px solid #cccccc;
+    width: 300px;
+    height: 610px;
+  }
+  .news-right{
+      float:right;
+      box-sizing: border-box;
+      border:1px solid #cccccc;
+      width:650px;
+      height:610px;
   }
 
   .box-list>li{
     font-size: 16px;
     color: #000;
     line-height: 22px;
+  }
+  .box-list>li:hover{
+      color:#cc0000;
   }
   .box-list>span{
     color: #999;
@@ -86,6 +104,7 @@ img{
     font-size:14px;
     margin-right:0;
     margin-top:20px;
+    cursor:pointer;
 }
 .box-list1>li{
     float:left;
@@ -93,6 +112,10 @@ img{
     color: #000;
     line-height: 22px;
     margin-top:10px;
+    cursor:pointer;
+  }
+  .box-list1>li:hover{
+      color:#cc0000;
   }
   .box-list1>span{
     float:right;
@@ -103,22 +126,7 @@ img{
     font-size: 12px;
     margin-right:0px;
   }
-.news-left{
-    float:left;
-    box-sizing:border-box; 
-    border: 1px solid #cccccc;
-    width: 300px;
-    height: 590px;
-  }
-  .news-right{
-      float:right;
-      box-sizing: border-box;
-      border:1px solid #cccccc;
-      width:650px;
-      height:590px;
-  }
+
 img:nth-child(3){
     float:right;
-    width: 30px;
-   height: 60px;
 }
