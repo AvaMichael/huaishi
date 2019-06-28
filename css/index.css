@@ -36,6 +36,9 @@ body{
     list-style: none;
     margin-top: 2px;
 }
+.wrapper .other a{
+    list-style:none;
+}
 .other ul{
     list-style:none;
     margin-top:2px;
