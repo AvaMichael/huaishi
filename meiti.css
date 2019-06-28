@@ -90,3 +90,23 @@ a{
     color: #333;
     text-decoration: none;
 }
+.cur_pos span{
+    font-family: "宋体";
+color: #999;
+margin-left: 2px;
+margin-right: 2px;
+}
+a{
+    color: #333;
+text-decoration: none;
+}
+.cur_pos span{
+    font-family: "宋体";
+color: #999;
+margin-left: 2px;
+margin-right: 2px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
