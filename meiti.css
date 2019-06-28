@@ -1,0 +1,31 @@
+.container{
+    margin:0 auto;
+}
+.w980{
+    width:980px;
+}
+body,h1,h2,h3,h4,h5,h6,ur,p,blockquote,dl,dt,dd,ul,ol,li,pre,from,fieldset,legend,button,input,textarea,table,th,tr,td,img,div{
+    margin:0pt;
+    padding:0pt;
+    border:0;
+    font-size:100%;
+}
+body{
+    font-family:"微软雅黑"
+}
+body,button,input,select,textarea{
+    font-size:12px;
+    line-height:22px;
+    color:#555555;
+    font-family:"SimSun","Arial Narrow";
+}
+.banner{
+    width:980px;
+    margin-top:30px;
+}
+.clear{
+    clear:both;
+}
+.menu{
+    width:980px;
+    height:55px;
