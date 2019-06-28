@@ -7,7 +7,7 @@ html
 body
 {
     margin: 0;
-    background-color: rgba(184, 253, 106, 0.829);
+    background-color: rgba(136, 224, 36, 0.658);
 }
 ul,h1,h2,h3
 {
@@ -99,7 +99,7 @@ ul {
     margin-top: 1em;
     margin-left: 200px;
 }
- .mainpage .back::after
+ .mainpage .ccccc::after
 {
     content:"";
     display: block;
@@ -109,4 +109,27 @@ ul {
 {
     background-color: #ffffff;
     height: 3em;
+}
+.ccccc
+{
+    background-color: snow;
+    width: 920px;
+    height: 41px;
+    margin-left: 200px;
+}
+.ccc .ccccc >ul 
+{
+    float: left;
+    margin-left: 360px;
+}
+.ccc .ccccc >ul >li
+{
+    float: left;
+    width: 200px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.ccc .ccccc > ul >li:hover
+{
+    font-weight: bolder;
 }
