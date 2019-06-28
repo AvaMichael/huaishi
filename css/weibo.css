@@ -132,7 +132,7 @@ ul {
 .ccc .ccccc > ul >li:hover
 {
     font-weight: bolder;
-}
+}/*左侧导航栏*/
 .left .renqi::after
 {
     content:"";
@@ -219,7 +219,11 @@ ul {
     font-weight: bolder;
     margin-left: 14px;
     margin-top: 8px;
-
+    cursor: pointer;
+}
+.zuo3 div >li:hover
+{
+    color: darkgreen;
 }
 .zuo3 div
 {
@@ -247,4 +251,49 @@ ul {
     background-color: #ffffff;
     width: 300px;
     height: 98px;
+    float: left;
+    margin-left: 200px;
+}
+.left .zuo5 div >div
+{
+    background-color: lightgray;
+    width: 292px;
+    height: 27px;
+    margin-left: 4px;
+}
+.left .zuo5 div >div >li
+{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.left .zuo5 div > div>li:hover
+{
+    color: darkgreen;
+}
+.left .zuo5 div >ul
+{
+    background-color: lightgray;
+    widows: 297px;
+    height: 80px;
+    margin-left: 4px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.left .zuo5 div >ul li
+{
+    color: dimgray;
+    font-size: 12px;
+}
+/*右侧内容栏*/
+.right .you1 div::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.right .you1 div
+{
+    float: left;
+    margin-left: 18px;
+    margin-top: 10px;
 }
