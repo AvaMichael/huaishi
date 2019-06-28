@@ -156,12 +156,13 @@ span{
 }
 
 .header{
-    margin-left: 227px;
-    margin-right: 600px;
-    color:black;
-    border-top: 2px dashed #ededed;
-    border-bottom: 2px dashed #ededed;
-    padding:10px;
+    border-top: #D7D7D7 dashed 1px;
+margin-top: 0px;
+line-height: 35px;
+height: 35px;
+border-bottom: #D7D7D7 dashed 1px;
+position: relative;
+margin-left: 227px;
 }
 .header > div{
     height:20px;
@@ -185,7 +186,7 @@ span{
 .guanjianci{
     margin-left:227px;
     background-color: #d0f2f4;
-    margin-right:600px;
+    margin-right:0px;
     height:50px;
     text-align: center;
     line-height: 50px;
@@ -194,3 +195,67 @@ span{
 .redian{
     height: 100px;
 }
+.mb_right {
+    width: 314px;
+}
+.slide_box {
+    border-top: #DFDFDF solid 1px;
+    position: relative;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+.slide_title {
+    font-size: 18px;
+    color: #f00;
+    position: relative;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+.main_body {
+    display: inline;
+}
+.mb_left {
+    width: 880px;
+    border-right: #e6e6e6 solid 1px;
+    height: auto;
+    padding-right: 25px;
+}
+.fl {
+    float: left;
+}
+
+#jubu3 a:link {
+    color:black;
+    text-decoration:none;
+}
+#jubu3 a:visited {
+    color:black;
+    text-decoration:none;
+}
+#jubu3 a:hover {
+    color:black;
+    text-decoration:underline;
+}
+#jubu3 a:active {
+    color:black;
+    text-decoration:none;
+}
+.slide_box #li_txt {
+    margin-top: 4px;
+}
+.slide_box dd {
+    height: 78px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.clear {
+    clear: both;
+}
+.slide_box li {
+    font-size: 14px;
+    background: url(../img/gray-dot.png) 0 14px no-repeat;
+    line-height: 30px;
+    text-indent: 9px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 280px;
