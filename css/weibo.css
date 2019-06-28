@@ -7,7 +7,7 @@ html
 body
 {
     margin: 0;
-    background-color: rgba(184, 253, 106, 0.829);
+    background-color: rgba(136, 224, 36, 0.658);
 }
 ul,h1,h2,h3
 {
@@ -59,7 +59,7 @@ ul {
     cursor: pointer;
     margin-left: 1em;
 }
-.fast_nav .nav >ul >li:hover
+.fast_nav .nav >ul >li >span:hover
 {
     color: darkorange;
 }
@@ -84,18 +84,88 @@ ul {
 {
     list-style: none;
 }
-.mainpage .back >ul
-{
-    float: left;
-    width: 100px;
-    text-align: center;
-    margin-top: 1em;
-    line-height: 100px;
-}
+
 .mainpage .back >ul >div >li
 {
     float: left;
     width: 100px;
     text-align:center;
     margin-top: 10px;
+    margin-right: 100px;
+}
+.back >div >img
+{
+   
+    margin-top: 1em;
+    margin-left: 200px;
+}
+ .mainpage .ccccc::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.mainpage >.ccccc
+{
+    background-color: #ffffff;
+    height: 3em;
+}
+.ccccc
+{
+    background-color: snow;
+    width: 920px;
+    height: 41px;
+    margin-left: 200px;
+}
+.ccc .ccccc >ul 
+{
+    float: left;
+    margin-left: 360px;
+}
+.ccc .ccccc >ul >li
+{
+    float: left;
+    width: 200px;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.ccc .ccccc > ul >li:hover
+{
+    font-weight: bolder;
+}
+.left .renqi::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.left .renqi
+{
+     margin-left: 200px;
+}
+.renqi div
+{
+    background-color: snow;
+    float: left;
+    width: 100px;
+    height: 58px;
+    margin-top: 10px;
+}
+.renqi div >li
+{
+    margin-left: 0.7em;
+    font-weight: bolder;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.left .zuo1::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+ .left .zuo1 >div
+{
+    float: left;
+    margin-left: 200px;
 }
