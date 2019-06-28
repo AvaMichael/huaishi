@@ -7,6 +7,7 @@ html
 body
 {
     margin: 0;
+    background-color: rgba(184, 253, 106, 0.829);
 }
 ul,h1,h2,h3
 {
@@ -31,27 +32,50 @@ ul {
     display: block;
     clear: both;
 }
-.fast_nav .nav 
+.fast_nav
 {
-    float: left;
+    background-color: #ffffff;
+    height: 3em;
 }
-.fast_nav .nav >ul 
+.fast_nav .logo 
 {
     float: left;
-    width: 50px;
+    width: 100px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.fast_nav .nav >ul
+{
+    float: left;
+    width:300px;
+    margin-left: 700px;
+}
+.fast_nav .nav >ul >li
+{
+    float: left;
+    width: 40px;
     text-align: center;
     line-height: 3em;
     cursor: pointer;
+    margin-left: 1em;
+}
+.fast_nav .nav >ul >li:hover
+{
+    color: darkorange;
 }
 .fast_nav .other 
 {
     float: right;
-    line-height: 3em;
+    line-height: 2em;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+.fast_nav .other:hover
+{
+    color: darkorange;
 }
 .fast_nav .other>span:nth-child(1) 
 {
     padding: 0 10px;
     border-right: 1px solid #ededed;
 }
-/*顶部导航*/
-
