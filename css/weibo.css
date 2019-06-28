@@ -59,7 +59,7 @@ ul {
     cursor: pointer;
     margin-left: 1em;
 }
-.fast_nav .nav >ul >li:hover
+.fast_nav .nav >ul >li >span:hover
 {
     color: darkorange;
 }
@@ -84,18 +84,29 @@ ul {
 {
     list-style: none;
 }
-.mainpage .back >ul
-{
-    float: left;
-    width: 100px;
-    text-align: center;
-    margin-top: 1em;
-    line-height: 100px;
-}
+
 .mainpage .back >ul >div >li
 {
     float: left;
     width: 100px;
     text-align:center;
     margin-top: 10px;
+    margin-right: 100px;
+}
+.back >div >img
+{
+   
+    margin-top: 1em;
+    margin-left: 200px;
+}
+ .mainpage .back::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.mainpage >.ccccc
+{
+    background-color: #ffffff;
+    height: 3em;
 }
