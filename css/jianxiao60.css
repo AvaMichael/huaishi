@@ -58,12 +58,11 @@ img{
     cursor:pointer;
 }
  .news{
-    box-sizing:border-box; 
-    border: 1px solid #cc0000;
+    
     margin:  0 150px;
     padding: 5px;
     width: 980px;
-    height: 2000px;
+    height: 1200px;
   }
   .news-left{
     float:left;
@@ -139,12 +138,13 @@ img:nth-child(3){
     float:right;
 }
 
+
 .box-xiaoshi{
     float:left;
     font-size:22px;
     color:#c00;
     text-indent:27px;
-    margin:10px 0 10px 0; 
+    margin:20px 0 20px 0; 
 }
 .box-geng{
     float:left;
@@ -152,7 +152,7 @@ img:nth-child(3){
     margin-left:70px;
     font-size:14px;
     margin-right:0;
-    margin-top:20px;
+    margin-top:30px;
     margin-left:800px;
     cursor:pointer;
 }
@@ -163,19 +163,19 @@ img:nth-child(3){
     float:left;
     width:245px;
     margin-right:20px;
-    margin-top:10px;
+    margin-top:none;
 }
 .tu2>img{
     float:left;
     width:245px;
     margin-right:20px;
-    margin-top:10px;
+    margin-top:none;
 }
 .tu3>img{
     float:left;
     width:245px;
     margin-right:20px;
-    margin-top:10px;
+    margin-top:none;
 }
 .tu1{
     float:left;
@@ -184,6 +184,7 @@ img:nth-child(3){
     width:245px;
     height: 400px;
     margin-right:20px;
+    margin-top:20px;
     
 }
 .tu2{
@@ -193,6 +194,7 @@ img:nth-child(3){
     width:245px;
     height: 400px;
     margin-right:20px;
+    margin-top:20px;
 }
 .tu3{
     float:left;
@@ -201,6 +203,33 @@ img:nth-child(3){
     width:245px;
     height: 400px;
     margin-right:50px;
+    margin-top:20px;
 }
+.liaojie{
+    text-align: center;
+    background: #cc0000;
+    font-size:18px;
+    color:white;
+}
+.liaojie:hover{
+    text-decoration: underline; 
+    cursor:pointer; 
+  }
+  .huaishi{
+      float:left;
+      margin-left:100px;
+      margin-top:50px;
+  }
+  .huaishi>span{
+    margin-left:35px;
+  }
+  .huaishi1{
+      float:left;
+      margin-left:10px;
+      margin-top:50px;   
+  }
 
-
+  .huaishi1>span{
+    margin-left:35px;
+  }
+  
