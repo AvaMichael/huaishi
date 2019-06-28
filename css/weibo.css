@@ -133,3 +133,39 @@ ul {
 {
     font-weight: bolder;
 }
+.left .renqi::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.left .renqi
+{
+     margin-left: 200px;
+}
+.renqi div
+{
+    background-color: snow;
+    float: left;
+    width: 100px;
+    height: 58px;
+    margin-top: 10px;
+}
+.renqi div >li
+{
+    margin-left: 0.7em;
+    font-weight: bolder;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.left .zuo1::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+ .left .zuo1 >div
+{
+    float: left;
+    margin-left: 200px;
+}
