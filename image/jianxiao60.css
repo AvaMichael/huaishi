@@ -26,3 +26,6 @@ img{
 .mean div:nth-child(8){
     border-right:none;
 }
+.div{
+    margin-left:150px;
+}
