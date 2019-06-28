@@ -121,6 +121,15 @@ body{
     color:wheat;
     cursor: pointer;
 }
+.middle .xinwen ul a{
+    margin-left:80px;
+    text-decoration:none;
+    color:#2c6097;
+}
+.middle .xinwen ul a:hover{
+    color:wheat;
+    cursor: pointer;
+}
 .middle .xinwen{
     float: left;
     margin-left:70px;
@@ -186,6 +195,14 @@ span{
 .messagetwo .right{
     float:left;
 }
+.messagetwo .right ul li a{
+    text-decoration: none;
+    color:white;
+}
+.messagetwo .right ul li a:hover{
+    color:rgb(150, 146, 146);
+    cursor: pointer;
+    }
 .messagetwo .bottom ul{
     float:right;
     font-size:30px;
@@ -222,6 +239,7 @@ span{
     margin-bottom:10px;
     text-align: center;
     color:white;
+    list-style: none;
 }
 .messagetwo .right li:hover{
     cursor: pointer;
