@@ -13,6 +13,7 @@ body{
 .wrapper {
     width: 1200px;
     margin: 0 auto;
+    border-bottom:2px solid #e9e9e9;
   }
 .fast_nav> .wrapper::after {
     content:"";
@@ -38,12 +39,28 @@ body{
 }
 .wrapper .other a{
     font-size: 14px;
-    float:right;
-    margin-top:10px;
+    float:left;
+    margin-top:11px;
     margin-left:7px;
     text-decoration: none;
     color:rgb(131, 128, 128);
 }
+.wrapper .nav a:nth-child(1){
+    font-size: 14px;
+    margin-top:11px;
+    float:left;
+    text-decoration: none;
+    color:rgb(131, 128, 128);
+}
+.wrapper .nav a:nth-child(2){
+    font-size: 14px;
+    margin-top:11px;
+    float:left;
+    text-decoration: none;
+    color:rgb(131, 128, 128);
+    margin-left: 20px;
+}
+
 .wrapper .other a:hover{
     color:#2c6097;
 }
@@ -63,13 +80,14 @@ body{
     text-align: center;
     line-height:3em;
 }
-.fast_nav .nav >ul > li:hover{
-    cursor:pointer;
-    color:#2c6097;
-}
 .fast_nav .other > ul > li:hover{
     cursor:pointer; 
     color: #2c6097;
+}
+.fast_nav .nav a:hover{
+    color: #2c6097;
+
+
 }
 
 
@@ -93,6 +111,15 @@ body{
 .middle .meiti  ul > li:hover{
     cursor:pointer;
     color:red;
+}
+.middle .meiti ul a{
+    margin-left:80px;
+    text-decoration:none;
+    color:#2c6097;
+}
+.middle .meiti ul a:hover{
+    color:wheat;
+    cursor: pointer;
 }
 .middle .xinwen{
     float: left;
