@@ -1,0 +1,154 @@
+.container{
+    margin:0 auto;
+}
+.w980{
+    width:980px;
+}
+body,h1,h2,h3,h4,h5,h6,ur,p,blockquote,dl,dt,dd,ul,ol,li,pre,from,fieldset,legend,button,input,textarea,table,th,tr,td,img,div{
+    margin:0pt;
+    padding:0pt;
+    border:0;
+    font-size:100%;
+}
+body{
+    font-family:"微软雅黑"
+}
+body,button,input,select,textarea{
+    font-size:12px;
+    line-height:22px;
+    color:#555555;
+    font-family:"SimSun","Arial Narrow";
+}
+.banner{
+    width:980px;
+    margin-top:30px;
+}
+.clear{
+    clear:both;
+}
+.menu{
+    width:980px;
+    height:55px;
+    line-height:45px;
+    background:url()no-repeat;
+    font-size:14px;
+    font-weight:700;
+    overflow:hidden;
+    margin：0auto;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    font-family: "宋体";
+}
+.menu ul{
+    float: left;
+    position: relative;
+    left: 50%;
+    padding-top: 10px;
+}
+.menu #index{
+    width:47px;
+}
+.menu li{
+    width: 98px;
+    height: 26px;
+    line-height: 26px;
+    float: left;
+    position: relative;
+    right: 50%;
+    overflow: hidden;
+    display: inline;
+}
+.main_body{
+    display:inline;
+}
+.nc_nav{
+    height: 38px;
+    border: #e2e2e2 solid 1px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.nc_pos{
+    width: 80px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+.nc_arrow{
+    width: 20px;
+height: 38px;
+background: url(../img/nc_arrow.png) no-repeat;
+}
+.cur_pos{
+    height: 38px;
+line-height: 38px;
+color: #000;
+text-align: right;
+padding-right: 20px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.cur_pos span{
+    font-family: "宋体";
+color: #999;
+margin-left: 2px;
+margin-right: 2px;
+}
+a{
+    color: #333;
+text-decoration: none;
+}
+.cur_pos span{
+    font-family: "宋体";
+color: #999;
+margin-left: 2px;
+margin-right: 2px;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.mb_left{
+    width:650px;
+}
+.li_box{
+    margin-top: 20px;
+border-bottom: #f1f1f1 solid 4px;
+padding-bottom: 15px;
+}
+.li_box dt a{
+    font-size: 18px;
+color: #000;
+}
+.li_box dd {
+    line-height: 24px;
+color: #666;
+font-size: 12px;
+font-family: "宋体";
+line-height: 22px;
+margin-top: 15px;
+}
+.li_box span a {
+    font-size: 12px;
+font-family: "宋体";
+color: #f00;
+}
+.clear{
+    clear:both;
+}
+.share_info{
+    position: relative;
+margin-top: 10px;
+}
+.li_box_info{
+    color:#999;
+}
+.li_box_time {
+    margin-right:10px;
+}
+#news_nav {
+    font-size: 12px;
+color: #666;
+}
