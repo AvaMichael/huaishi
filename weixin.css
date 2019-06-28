@@ -27,6 +27,7 @@ a{
     background-color: #3c97d7;
     border-bottom: 4px solid #dfdfdf;
     margin-left: 0px;
+    
 }
 .fast_nav> .wrapper::after{
     content: "";
@@ -59,19 +60,132 @@ a{
 span{
     margin: 9px;
 }
-a:link {
+#jubu a:link {
     color:white;
     text-decoration:none;
     }
-a:visited {
+#jubu a:visited {
     color:white;
     text-decoration:none;
     }
-a:hover {
+#jubu a:hover {
     color:white;
     text-decoration:underline;
     }
-a:active {
+#jubu a:active {
     color:white;
     text-decoration:none;
     }
+
+
+
+
+
+.second_nav{
+        border-bottom: 1px solid #dfdfdf;
+        border-top: 1px solid #dfdfdf;
+        margin-left: 227px;
+        margin-right:227px;
+        color:black;
+}
+.second_nav> .wrapper2::after{
+        content: "";
+        display:block;
+        clear: both;
+        color:black;
+}
+.second_nav .nav2{
+        float: left;
+        font-size: 12px;
+        color:black;
+        margin-left: 0px;
+        color:black;
+}
+  
+.second_nav .nav2 >ul >li{
+        float: left;
+        width: 72px;
+        text-align: center;
+        line-height: 2.7em;
+        cursor: pointer;
+        color:black;
+       
+}
+.second_nav .other2{
+        display: block;
+        float: right;
+        line-height: 2.7em;
+        color: black;
+        width:300px;
+        text-align: center;
+        cursor: pointer;
+        color:black;
+}
+ 
+
+#jubu2 a:link {
+    color:black;
+    text-decoration:none;
+}
+#jubu2 a:visited {
+    color:black;
+    text-decoration:none;
+}
+#jubu2 a:hover {
+    color:black;
+    text-decoration:underline;
+}
+#jubu2 a:active {
+    color:black;
+    text-decoration:none;
+}
+
+.biaoti{
+    margin-left: 120px;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.zhengwen{
+    margin-left:300px;
+}
+.zhengwen2{
+    font-weight: 550;
+}
+
+.header{
+    margin-left: 227px;
+    margin-right: 600px;
+    color:black;
+    border-top: 2px dashed #ededed;
+    border-bottom: 2px dashed #ededed;
+   
+    padding:10px;
+}
+.header > div{
+    height:20px;
+}
+
+.header > div.left{
+    float: left;
+    width:400px;
+}
+.header > div.right{
+    margin-left:300px;
+}
+.erweima{
+    position:absolute; left:400px;  
+}
+.w_info{
+    font-size: 12px;
+    margin-right:500px;
+    height:300px;
+}
+.guanjianci{
+    margin-left:227px;
+    background-color: #d0f2f4;
+    margin-right:600px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+}
