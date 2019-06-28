@@ -79,3 +79,23 @@ ul {
     padding: 0 10px;
     border-right: 1px solid #ededed;
 }
+/*主页标题*/
+.mainpage
+{
+    list-style: none;
+}
+.mainpage .back >ul
+{
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin-top: 1em;
+    line-height: 100px;
+}
+.mainpage .back >ul >div >li
+{
+    float: left;
+    width: 100px;
+    text-align:center;
+    margin-top: 10px;
+}
