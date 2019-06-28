@@ -141,9 +141,11 @@ span{
 }
 
 .biaoti{
-    margin-left: 120px;
+    margin-left: 235px;
     font-weight: 400;
     font-size: 25px;
+    height: 90px;
+    line-height: 90px;
 }
 
 .zhengwen{
@@ -159,7 +161,6 @@ span{
     color:black;
     border-top: 2px dashed #ededed;
     border-bottom: 2px dashed #ededed;
-   
     padding:10px;
 }
 .header > div{
@@ -188,4 +189,8 @@ span{
     height:50px;
     text-align: center;
     line-height: 50px;
+}
+
+.redian{
+    height: 100px;
 }
