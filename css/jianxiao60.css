@@ -26,3 +26,6 @@ img{
 .mean div:nth-child(8){
     border-right:none;
 }
+.news div>li{
+    list-style: none;
+}
