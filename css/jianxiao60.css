@@ -219,17 +219,38 @@ img:nth-child(3){
       float:left;
       margin-left:100px;
       margin-top:50px;
+      width:100px;
+      font-size:14px;
   }
   .huaishi>span{
-    margin-left:35px;
+    margin-left:25px;
   }
   .huaishi1{
       float:left;
       margin-left:10px;
-      margin-top:50px;   
+      margin-top:50px;  
+      width:100px;
+      font-size:14px; 
   }
 
   .huaishi1>span{
-    margin-left:35px;
+    margin-left:20px;
   }
-  
+  .weixin{
+    float:left;
+   
+    width:100%;
+  }
+  .dizhi{
+    float:left;
+    
+    width:500px;
+    margin-left:168px;
+    margin-top:40px;
+    padding-top:50px;
+  }
+  .dizhi>li{
+      float:left;
+      width:350px;
+      margin-left:170px;
+  }
