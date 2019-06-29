@@ -219,19 +219,19 @@ margin-left: 227px;
 }
 
 #jubu3 a:link {
-    color:black;
+    color:#e4e4e4;
     text-decoration:none;
 }
 #jubu3 a:visited {
-    color:black;
+    color:#e4e4e4;
     text-decoration:none;
 }
 #jubu3 a:hover {
-    color:black;
+    color:#e4e4e4;
     text-decoration:underline;
 }
 #jubu3 a:active {
-    color:black;
+    color:#e4e4e4;
     text-decoration:none;
 }
 .slide_box #li_txt {
@@ -282,5 +282,10 @@ ul, ol, li, dl, dt, dd {
 }
 .gz_list {
     margin-top: 5px;
-    background: url(../img/i_nub.png) 0 12px no-repeat;
+}
+.re_link {
+    border-top: #e4e4e4 solid 1px;
+    border-bottom: #e4e4e4 solid 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
