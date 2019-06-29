@@ -250,7 +250,7 @@ ul {
 {
     background-color: #ffffff;
     width: 300px;
-    height: 98px;
+    height: 120px;
     float: left;
     margin-left: 200px;
 }
@@ -274,26 +274,246 @@ ul {
 {
     background-color: lightgray;
     widows: 297px;
-    height: 80px;
+    height:110px;
     margin-left: 4px;
     margin-top: 4px;
     cursor: pointer;
 }
-.left .zuo5 div >ul li
-{
-    color: dimgray;
-    font-size: 12px;
-}
-/*右侧内容栏*/
-.right .you1 div::after
+.left .zuo5::after
 {
     content: "";
     display: block;
     clear: both;
 }
-.right .you1 div
+
+.left .zuo6 >div
 {
     float: left;
-    margin-left: 18px;
-    margin-top: 10px;
+    background-color: snow;
+    width: 301px;
+    height:29px;
+    margin-top: 0.5em;
+    margin-left: 200px;
 }
+.zuo6 >div >li
+{
+    float: left;
+    font-size: 12px;
+    color: darkgrey;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.zuo6 >div >li:hover
+{
+    color: forestgreen;
+}
+.left .zuo6::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left .zuo7 >div
+{
+    float: left;
+    background-color: snow;
+    width: 301px;
+    height: 75px;
+}
+.left .zuo7 >div
+{
+    float: left;
+    margin-left: 200px;
+}
+.zuo7 div >li
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 14px;
+    margin-top:16px;
+    cursor: pointer;
+}
+.zuo7 div >li:hover
+{
+    color: darkgreen;
+}
+.zuo7 div
+{
+    margin-top: 30px; 
+}
+.left .zuo7::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left .zuo8 >div
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 1px;
+}
+.left .zuo8::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left .zuo9 >div
+{
+    float: left;
+    background-color: snow;
+    width: 301px;
+    height:29px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.zuo9 >div >li
+{
+    float: left;
+    font-size: 12px;
+    color: darkgrey;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.zuo9 >div >li:hover
+{
+    color: forestgreen;
+}
+.left .zuo9::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left .zuo10 >div
+{
+    float: left;
+    background-color: snow;
+    width: 301px;
+    height: 34px;
+}
+.left .zuo10 >div
+{
+    float: left;
+    margin-left: 200px;
+}
+.zuo10 div >li
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.zuo10 div >li:hover
+{
+    color: darkgreen;
+}
+.zuo10 div
+{
+    margin-top: 30px; 
+}
+.left .zuo10::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.left .zuo11 >div
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.left .zuo11::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left .zuo12 >div
+{
+    float: left;
+    background-color: snow;
+    width: 301px;
+    height:29px;
+    margin-left: 200px;
+    cursor: pointer;
+}
+.zuo12 >div >li
+{
+    float: left;
+    font-size: 12px;
+    color: darkgrey;
+    text-align: center;
+    margin-left: 125px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.zuo12 >div >li:hover
+{
+    color: forestgreen;
+}
+.left .zuo12::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left .zuo13 >div
+{
+    float: left;
+    background-color: snow;
+    width: 301px;
+    height: 34px;
+}
+.left .zuo13 >div
+{
+    float: left;
+    margin-left: 200px;
+}
+.zuo13 div >li
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.zuo13 div >li:hover
+{
+    color: darkgreen;
+}
+.zuo13 div
+{
+    margin-top: 30px; 
+}
+.left .zuo13::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
+.left .zuo14 >div
+{
+    float: left;
+    margin-left: 200px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+.left .zuo14::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*右侧内容栏*/
+
+
