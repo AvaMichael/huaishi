@@ -391,5 +391,39 @@ ul {
     display: block;
     clear: both;
 }
+.left .zuo10 >div
+{
+    float: left;
+    background-color: snow;
+    width: 301px;
+    height: 34px;
+}
+.left .zuo10 >div
+{
+    float: left;
+    margin-left: 200px;
+}
+.zuo10 div >li
+{
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 14px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.zuo10 div >li:hover
+{
+    color: darkgreen;
+}
+.zuo10 div
+{
+    margin-top: 30px; 
+}
+.left .zuo10::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}
 
 /*右侧内容栏*/
