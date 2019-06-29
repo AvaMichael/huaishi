@@ -280,3 +280,7 @@ ul, ol, li, dl, dt, dd {
     line-height: 100px;
     width:100%;
 }
+.gz_list {
+    margin-top: 5px;
+    background: url(../img/i_nub.png) 0 12px no-repeat;
+}
