@@ -249,8 +249,12 @@ img:nth-child(3){
     margin-top:40px;
     padding-top:50px;
   }
-  .dizhi>li{
+  .dizhi>div{
       float:left;
       width:350px;
       margin-left:170px;
+  }
+  .dizhi>div>span:hover{
+    text-decoration: underline; 
+    cursor:pointer; 
   }
